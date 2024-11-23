@@ -1,0 +1,193 @@
+.center {
+    text-align:center;
+  }
+  
+  .round {
+    border: 5px solid black;
+    border-radius: 1000px;
+    box-shadow: 10px 10px 5px 12px lightblue;
+  }
+  
+  .shadow{
+    text-shadow: 2px 2px 5px blue;
+  }
+  
+  .shadowwhite{
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  a {
+    padding: 8px;
+    background-color:black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+  }
+  
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:gray;
+  }
+  
+  .red{
+    color:red;
+  }
+  
+  .purp {
+    color:purple;
+  }
+  
+  .right {
+    text-align:right;
+  }
+  
+  .left{
+    text-align:left;
+  }
+  
+  .test{
+    height:174px;
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    border: 10px solid black;
+    padding: 10px;
+  }
+  
+  .big {
+    font-size:40px;
+  }
+  
+  .text{
+    position: absolute;
+    width: 400px;
+    border: 10px solid black;
+    padding: 10px;
+    text-align:left;
+  }
+  
+  .test2{
+    position: absolute;
+    right: 0px;
+    width: 880px;
+    border: 10px solid black;
+    padding: 10px;
+      
+  }
+  
+  .test1{
+    position: absolute;
+    right: 0px;
+    width: 908px;
+    border: 0px solid black;
+    padding: 10px;
+  }
+  
+  
+  .thing{
+    position: absolute;
+    width: 415px;
+    border: 10px solid black;
+    padding: 10px;
+    text-align:left;
+  }
+  
+  .pink{
+    background-color:white;
+  }
+  
+  .tester{
+    position: absolute;
+    width: 400px;
+    border: 10px solid black;
+    padding: 10px;
+    text-align:right;
+  }
+  
+  .seven{
+    top: 300px;
+    right:400px;
+  }
+  
+  .eggb{
+    height:50px;
+    width:100px;
+  }
+  
+  #kumar{
+    color:black;
+  }
+  
+  .blackk{
+    background-color:black;
+  }
+  
+  .white{
+    color:white;
+  }
+  
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  
+  .slight {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  .bane{
+    width:250px;
+    height:200px;
+  }
+  
+  .t{
+    font-family: "Brush Script MT", cursive;
+  }
+  
+  .vir {
+    border-radius: 40px;
+    border:white;
+    padding: 20px;
+    width: 1300px;
+    height: 150px;
+  }
+  
+  
+  
+  
+  
+  
